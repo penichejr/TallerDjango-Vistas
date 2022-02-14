@@ -1,4 +1,4 @@
-from ..models import Variable
+from .  .models import Variable
 
 def get_variables():
     variables = Variable.objects.all()
